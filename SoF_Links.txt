@@ -1,0 +1,95 @@
+Stack overflow Links:
+
+https://stackoverflow.com/questions/31610971/spark-repartition-vs-coalesce
+https://medium.com/airbnb-engineering/on-spark-hive-and-small-files-an-in-depth-look-at-spark-partitioning-strategies-a9a364f908
+https://medium.com/datakaresolutions/key-factors-to-consider-when-optimizing-spark-jobs-72b1a0dc22bf
+https://medium.com/curious-data-catalog/spill-often-ignored-sparks-performance-problem-9b4c1ea962f
+https://www.java-success.com/apache-spark-anatomy-interview-qas/
+https://stackoverflow.com/questions/56139164/what-triggers-jobs-in-spark
+https://stackoverflow.com/questions/43984068/does-spark-sql-autobroadcastjointhreshold-work-for-joins-using-datasets-join-op
+https://medium.com/curious-data-catalog/spill-often-ignored-sparks-performance-problem-9b4c1ea962f
+https://stackoverflow.com/questions/38056774/spark-cache-vs-broadcast#:~:text=Caching%20is%20a%20key%20tool%20for%20iterative%20algorithms%20and%20fast%20interactive%20use.&text=Broadcast%20variables%20allow%20the%20programmer,dataset%20in%20an%20efficient%20manner.
+https://stackoverflow.com/questions/45704156/what-is-the-difference-between-spark-sql-shuffle-partitions-and-spark-default-pa
+https://stackoverflow.com/questions/26870537/what-is-the-difference-between-cache-and-persist
+https://stackoverflow.com/questions/47819888/get-data-frame-columns-and-its-value-as-variables-in-pyspark
+https://stackoverflow.com/questions/51142864/using-when-and-otherwise-while-converting-boolean-values-to-strings-in-pyspark
+https://stackoverflow.com/questions/70309112/groupby-column-and-create-lists-for-another-column-values-in-pyspark
+
+Data Skewness:
+
+https://stackoverflow.com/questions/40373577/skewed-dataset-join-in-spark?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://datarus.wordpress.com/2015/05/04/fighting-the-skew-in-spark/
+https://towardsdatascience.com/skewed-data-in-spark-add-salt-to-compensate-16d44404088b
+https://dzone.com/articles/why-your-spark-apps-are-slow-or-failing-part-ii-da
+https://stackoverflow.com/questions/58110207/spark-how-does-salting-work-in-dealing-with-skewed-data
+https://stackoverflow.com/questions/64967300/pyspark-data-skewness-with-window-functions
+
+Data Profiling
+
+https://github.com/akashmehta10/profiling_pyspark
+
+Regex:
+
+https://stackoverflow.com/questions/59638516/using-pyspark-the-regex-between-two-characters-gets-text-and-numbers-but-not-d
+https://regex101.com/r/fArcss/1
+
+
+spark resource calculations:
+
+https://codepen.io/mfeet/pen/eeMJZr
+
+regex:
+
+https://stackoverflow.com/questions/46410887/pyspark-string-matching-to-create-new-column
+
+unionByName:
+
+https://mungingdata.com/pyspark/union-unionbyname-merge-dataframes/
+
+dataframe to JSON:
+
+https://stackoverflow.com/questions/70301972/convert-spark-dataframe-to-nested-json-using-pyspark
+https://stackoverflow.com/questions/53704434/convert-dataframe-into-array-of-nested-json-object-in-pyspark
+https://stackoverflow.com/questions/58033947/create-nested-json-out-of-pyspark-dataframe
+https://stackoverflow.com/questions/65620268/convert-pyspark-dataframe-into-nested-json-structure
+
+
+pivot and unpivot in spark:
+
+https://stackoverflow.com/questions/42465568/unpivot-in-spark-sql-pyspark
+https://stackoverflow.com/questions/60211169/how-to-unpivot-a-large-spark-dataframe
+https://stackoverflow.com/questions/55378047/pyspark-dataframe-melt-columns-into-rows
+https://stackoverflow.com/questions/46807776/how-to-retrieve-all-columns-using-pyspark-collect-list-functions
+https://stackoverflow.com/questions/50936087/efficient-way-to-pivot-columns-and-group-by-in-pyspark-data-frame
+
+Min and Max dataframe column
+
+https://stackoverflow.com/questions/62753318/how-to-count-frequency-of-min-and-max-for-all-columns-from-a-pyspark-dataframe
+maxValueA = df.agg(max("A")).collect()[0][0]
+maxValueB = df.agg(max("B")).collect()[0][0]
+
+consecutive values
+
+https://stackoverflow.com/questions/71310397/how-to-find-the-consecutive-values-in-pyspark-dataframe-column-and-replace-the-v
+https://stackoverflow.com/questions/54606740/pyspark-select-users-seen-on-at-least-2-consecutive-days
+https://stackoverflow.com/questions/40048919/what-is-the-difference-between-rowsbetween-and-rangebetween
+https://python.tutorialink.com/split-a-list-of-overlapping-intervals-into-non-overlapping-subintervals-in-a-pyspark-dataframe/
+https://stackoverflow.com/questions/62066005/how-do-i-calculate-the-overlap-days-in-a-dataframe-in-pyspark
+https://stackoverflow.com/questions/52273186/pyspark-spark-window-function-first-last-issue
+
+lead/lag
+
+https://stackoverflow.com/questions/55537533/spark-lag-with-default-value-as-another-column - important
+https://stackoverflow.com/questions/63270732/pyspark-how-to-lead-from-specific-column-value-in-dataframe
+https://stackoverflow.com/questions/70037866/pyspark-check-if-column-values-are-monotonically-increasing
+https://stackoverflow.com/questions/61158241/detect-when-certain-column-value-changes-from-value1-to-value2-in-pyspark
+
+
+dataframe to dictionary and operations
+
+https://stackoverflow.com/questions/43976237/pyspark-replacing-value-in-a-column-by-searching-a-dictionary
+https://stackoverflow.com/questions/44776283/replace-values-of-one-column-in-a-spark-df-by-dictionary-key-values-pyspark
+https://stackoverflow.com/questions/41206255/convert-pyspark-sql-dataframe-dataframe-type-dataframe-to-dictionary
+https://stackoverflow.com/questions/49432167/how-to-convert-rows-into-a-list-of-dictionaries-in-pyspark
+https://stackoverflow.com/questions/43646814/convert-pyspark-dataframe-column-to-dict-without-rdd-conversion
+https://stackoverflow.com/questions/52173037/pyspark-create-dictionary-from-data-in-two-columns
