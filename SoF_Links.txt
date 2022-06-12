@@ -61,6 +61,9 @@ https://stackoverflow.com/questions/60211169/how-to-unpivot-a-large-spark-datafr
 https://stackoverflow.com/questions/55378047/pyspark-dataframe-melt-columns-into-rows
 https://stackoverflow.com/questions/46807776/how-to-retrieve-all-columns-using-pyspark-collect-list-functions
 https://stackoverflow.com/questions/50936087/efficient-way-to-pivot-columns-and-group-by-in-pyspark-data-frame
+https://stackoverflow.com/questions/30244910/how-to-pivot-spark-dataframe
+https://stackoverflow.com/questions/37864222/transpose-column-to-row-with-spark
+https://stackoverflow.com/questions/41670103/how-to-melt-spark-dataframe
 
 Min and Max dataframe column
 
